@@ -12,10 +12,12 @@ import { aboveBreakpoint } from '../utils/constants'
 const styles = {
   icon: css({
     marginRight: '24px',
-    fontSize: '24px',
+    width: '24px !important',
+    height: '24px !important',
     [aboveBreakpoint.sm]: {
       marginRight: '36px',
-      fontSize: '30px',
+      width: '30px !important',
+      height: '30px !important',
     },
   }),
   link: css({
