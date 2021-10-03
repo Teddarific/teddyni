@@ -24,7 +24,6 @@ export default class MyDocument extends Document {
         lang="en"
       >
         <Head>
-          <title>Teddy Ni</title>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"

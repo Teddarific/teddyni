@@ -15,7 +15,7 @@ export function PageContainer({ children }: { children: React.ReactNode }) {
           padding: '36px 48px',
         },
         [aboveBreakpoint.md]: {
-          padding: '60px 72px',
+          padding: '80px 140px',
         },
       }}
     >

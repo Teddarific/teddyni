@@ -20,6 +20,9 @@ export default function Home() {
             [aboveBreakpoint.sm]: {
               fontSize: '20px',
             },
+            [aboveBreakpoint.md]: {
+              marginBottom: '12px',
+            },
           }}
         >{`👋 Hey there, I'm`}</div>
         <div
@@ -31,6 +34,9 @@ export default function Home() {
             fontSize: '48px',
             [aboveBreakpoint.sm]: {
               fontSize: '60px',
+            },
+            [aboveBreakpoint.sm]: {
+              fontSize: '72px',
             },
           }}
         >
