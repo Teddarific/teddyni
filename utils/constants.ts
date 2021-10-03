@@ -4,8 +4,8 @@ const Breakpoints = {
   lg: 1024, // Desktop
 }
 
-export const belowBreakpoint = {
-  sm: `@media (max-width: ${Breakpoints.sm}px)`,
-  md: `@media (max-width: ${Breakpoints.md}px)`,
-  lg: `@media (max-width: ${Breakpoints.lg}px)`,
+export const aboveBreakpoint = {
+  sm: `@media (min-width: ${Breakpoints.sm}px)`,
+  md: `@media (min-width: ${Breakpoints.md}px)`,
+  lg: `@media (min-width: ${Breakpoints.lg}px)`,
 }

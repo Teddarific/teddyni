@@ -7,10 +7,16 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { aboveBreakpoint } from '../utils/constants'
+
 const styles = {
   icon: css({
-    fontSize: '24px',
     marginRight: '24px',
+    fontSize: '24px',
+    [aboveBreakpoint.sm]: {
+      marginRight: '36px',
+      fontSize: '30px',
+    },
   }),
   link: css({
     textDecoration: 'none',
