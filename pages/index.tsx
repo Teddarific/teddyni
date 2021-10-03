@@ -1,6 +1,9 @@
+import Image from 'next/image'
+
 import { Contact } from '../components/Contact'
 import { Footer } from '../components/Footer'
 import { PageContainer } from '../components/PageContainer'
+import Avatar from '../public/avatar.png'
 import { aboveBreakpoint } from '../utils/constants'
 
 export default function Home() {
@@ -17,6 +20,35 @@ export default function Home() {
       >
         <div
           css={{
+            alignSelf: 'center',
+            borderRadius: '50%',
+            border: '1px solid rgba(0, 0, 0, .2)',
+            backgroundColor: '#e5dab8',
+            overflow: 'hidden',
+            position: 'relative',
+            height: '120px',
+            width: '120px',
+            [aboveBreakpoint.sm]: {
+              height: '150px',
+              width: '150px',
+            },
+            [aboveBreakpoint.md]: {
+              alignSelf: 'flex-start',
+            },
+          }}
+        >
+          <div
+            css={{
+              top: '10px',
+              position: 'absolute',
+            }}
+          >
+            <Image src={Avatar} alt="My avatar" />
+          </div>
+        </div>
+        <div
+          css={{
+            marginTop: '24px',
             [aboveBreakpoint.sm]: {
               fontSize: '20px',
             },

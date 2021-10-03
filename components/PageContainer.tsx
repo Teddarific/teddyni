@@ -9,7 +9,7 @@ export function PageContainer({ children }: { children: React.ReactNode }) {
         boxSizing: 'border-box',
         height: '100vh',
         width: '100vw',
-        backgroundColor: '#fafafa',
+        backgroundColor: '#f8f5ec',
         padding: '24px 36px',
         [aboveBreakpoint.sm]: {
           padding: '36px 48px',
