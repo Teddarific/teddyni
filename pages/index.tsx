@@ -91,9 +91,9 @@ export default function Home() {
             },
           }}
         >
-          Currently an engineer @
-          <a href="https://heycanopy.com" css={{ textDecoration: 'none' }}>
-            <span css={{ color: '#377acc', fontWeight: 600 }}>Canopy</span>
+          Currently a founder @
+          <a href="https://www.mirrorful.com" css={{ textDecoration: 'none' }}>
+            <span css={{ color: '#377acc', fontWeight: 600 }}>Mirrorful</span>
           </a>
         </div>
         <div
